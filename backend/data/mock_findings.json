@@ -1,0 +1,2807 @@
+[
+  {
+    "id": "FND-1",
+    "cve": "CVE-2022-9999",
+    "package": "lodash",
+    "severity": "CRITICAL",
+    "cvss": "5.6",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-2",
+    "cve": "CVE-2023-1234",
+    "package": "react",
+    "severity": "MEDIUM",
+    "cvss": "5.5",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-12"
+  },
+  {
+    "id": "FND-3",
+    "cve": "CVE-2023-1234",
+    "package": "django",
+    "severity": "CRITICAL",
+    "cvss": "7.8",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-15"
+  },
+  {
+    "id": "FND-4",
+    "cve": "CVE-2023-5678",
+    "package": "log4j",
+    "severity": "LOW",
+    "cvss": "7.3",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-3"
+  },
+  {
+    "id": "FND-5",
+    "cve": "CVE-2014-0160",
+    "package": "log4j",
+    "severity": "LOW",
+    "cvss": "9.1",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-9"
+  },
+  {
+    "id": "FND-6",
+    "cve": "CVE-2014-0160",
+    "package": "log4j",
+    "severity": "LOW",
+    "cvss": "9.1",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-9"
+  },
+  {
+    "id": "FND-7",
+    "cve": "CVE-2021-44228",
+    "package": "nginx",
+    "severity": "HIGH",
+    "cvss": "7.3",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-18"
+  },
+  {
+    "id": "FND-8",
+    "cve": "CVE-2014-0160",
+    "package": "express",
+    "severity": "LOW",
+    "cvss": "9.3",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-8"
+  },
+  {
+    "id": "FND-9",
+    "cve": "CVE-2021-44228",
+    "package": "django",
+    "severity": "LOW",
+    "cvss": "9.0",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-2"
+  },
+  {
+    "id": "FND-10",
+    "cve": "CVE-2021-44228",
+    "package": "apache",
+    "severity": "LOW",
+    "cvss": "6.8",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-12"
+  },
+  {
+    "id": "FND-11",
+    "cve": "CVE-2023-5678",
+    "package": "spring-boot",
+    "severity": "CRITICAL",
+    "cvss": "7.6",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-12",
+    "cve": "CVE-2023-5678",
+    "package": "lodash",
+    "severity": "CRITICAL",
+    "cvss": "9.8",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-19"
+  },
+  {
+    "id": "FND-13",
+    "cve": "CVE-2023-5678",
+    "package": "openssl",
+    "severity": "HIGH",
+    "cvss": "6.7",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-8"
+  },
+  {
+    "id": "FND-14",
+    "cve": "CVE-2021-44228",
+    "package": "spring-boot",
+    "severity": "MEDIUM",
+    "cvss": "9.3",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-7"
+  },
+  {
+    "id": "FND-15",
+    "cve": "CVE-2014-0160",
+    "package": "react",
+    "severity": "HIGH",
+    "cvss": "8.3",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-12"
+  },
+  {
+    "id": "FND-16",
+    "cve": "CVE-2023-1234",
+    "package": "spring-boot",
+    "severity": "MEDIUM",
+    "cvss": "7.4",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-17"
+  },
+  {
+    "id": "FND-17",
+    "cve": "CVE-2021-44228",
+    "package": "lodash",
+    "severity": "MEDIUM",
+    "cvss": "8.2",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-19"
+  },
+  {
+    "id": "FND-18",
+    "cve": "CVE-2021-44228",
+    "package": "lodash",
+    "severity": "MEDIUM",
+    "cvss": "8.2",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-19"
+  },
+  {
+    "id": "FND-19",
+    "cve": "CVE-2022-9999",
+    "package": "nginx",
+    "severity": "MEDIUM",
+    "cvss": "8.4",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-9"
+  },
+  {
+    "id": "FND-20",
+    "cve": "CVE-2022-9999",
+    "package": "log4j",
+    "severity": "HIGH",
+    "cvss": "6.9",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-15"
+  },
+  {
+    "id": "FND-21",
+    "cve": "CVE-2021-44228",
+    "package": "apache",
+    "severity": "MEDIUM",
+    "cvss": "8.2",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-3"
+  },
+  {
+    "id": "FND-22",
+    "cve": "CVE-2021-44228",
+    "package": "apache",
+    "severity": "MEDIUM",
+    "cvss": "8.2",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-3"
+  },
+  {
+    "id": "FND-23",
+    "cve": "CVE-2023-1234",
+    "package": "flask",
+    "severity": "LOW",
+    "cvss": "5.8",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-19"
+  },
+  {
+    "id": "FND-24",
+    "cve": "CVE-2022-9999",
+    "package": "nginx",
+    "severity": "LOW",
+    "cvss": "8.2",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-7"
+  },
+  {
+    "id": "FND-25",
+    "cve": "CVE-2022-9999",
+    "package": "nginx",
+    "severity": "LOW",
+    "cvss": "8.2",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-7"
+  },
+  {
+    "id": "FND-26",
+    "cve": "CVE-2021-44228",
+    "package": "express",
+    "severity": "MEDIUM",
+    "cvss": "8.9",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-27",
+    "cve": "CVE-2014-0160",
+    "package": "react",
+    "severity": "LOW",
+    "cvss": "7.8",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-11"
+  },
+  {
+    "id": "FND-28",
+    "cve": "CVE-2014-0160",
+    "package": "react",
+    "severity": "LOW",
+    "cvss": "7.8",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-11"
+  },
+  {
+    "id": "FND-29",
+    "cve": "CVE-2023-1234",
+    "package": "apache",
+    "severity": "LOW",
+    "cvss": "9.4",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-30",
+    "cve": "CVE-2014-0160",
+    "package": "flask",
+    "severity": "MEDIUM",
+    "cvss": "5.2",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-9"
+  },
+  {
+    "id": "FND-31",
+    "cve": "CVE-2014-0160",
+    "package": "flask",
+    "severity": "MEDIUM",
+    "cvss": "5.2",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-9"
+  },
+  {
+    "id": "FND-32",
+    "cve": "CVE-2021-44228",
+    "package": "react",
+    "severity": "HIGH",
+    "cvss": "7.7",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-8"
+  },
+  {
+    "id": "FND-33",
+    "cve": "CVE-2021-44228",
+    "package": "react",
+    "severity": "LOW",
+    "cvss": "6.3",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-8"
+  },
+  {
+    "id": "FND-34",
+    "cve": "CVE-2021-44228",
+    "package": "log4j",
+    "severity": "HIGH",
+    "cvss": "8.9",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-14"
+  },
+  {
+    "id": "FND-35",
+    "cve": "CVE-2023-1234",
+    "package": "apache",
+    "severity": "HIGH",
+    "cvss": "7.6",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-36",
+    "cve": "CVE-2021-44228",
+    "package": "flask",
+    "severity": "LOW",
+    "cvss": "8.0",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-10"
+  },
+  {
+    "id": "FND-37",
+    "cve": "CVE-2021-44228",
+    "package": "flask",
+    "severity": "LOW",
+    "cvss": "8.0",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-10"
+  },
+  {
+    "id": "FND-38",
+    "cve": "CVE-2014-0160",
+    "package": "nginx",
+    "severity": "CRITICAL",
+    "cvss": "9.3",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-0"
+  },
+  {
+    "id": "FND-39",
+    "cve": "CVE-2014-0160",
+    "package": "nginx",
+    "severity": "CRITICAL",
+    "cvss": "9.3",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-0"
+  },
+  {
+    "id": "FND-40",
+    "cve": "CVE-2014-0160",
+    "package": "react",
+    "severity": "CRITICAL",
+    "cvss": "8.5",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-41",
+    "cve": "CVE-2023-1234",
+    "package": "apache",
+    "severity": "HIGH",
+    "cvss": "5.6",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-2"
+  },
+  {
+    "id": "FND-42",
+    "cve": "CVE-2023-5678",
+    "package": "lodash",
+    "severity": "CRITICAL",
+    "cvss": "5.9",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-8"
+  },
+  {
+    "id": "FND-43",
+    "cve": "CVE-2023-1234",
+    "package": "django",
+    "severity": "CRITICAL",
+    "cvss": "9.4",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-14"
+  },
+  {
+    "id": "FND-44",
+    "cve": "CVE-2022-9999",
+    "package": "express",
+    "severity": "HIGH",
+    "cvss": "8.2",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-3"
+  },
+  {
+    "id": "FND-45",
+    "cve": "CVE-2023-5678",
+    "package": "react",
+    "severity": "LOW",
+    "cvss": "10.0",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-3"
+  },
+  {
+    "id": "FND-46",
+    "cve": "CVE-2014-0160",
+    "package": "lodash",
+    "severity": "MEDIUM",
+    "cvss": "9.4",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-6"
+  },
+  {
+    "id": "FND-47",
+    "cve": "CVE-2014-0160",
+    "package": "lodash",
+    "severity": "MEDIUM",
+    "cvss": "9.4",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-6"
+  },
+  {
+    "id": "FND-48",
+    "cve": "CVE-2021-44228",
+    "package": "lodash",
+    "severity": "MEDIUM",
+    "cvss": "5.3",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-6"
+  },
+  {
+    "id": "FND-49",
+    "cve": "CVE-2014-0160",
+    "package": "flask",
+    "severity": "CRITICAL",
+    "cvss": "6.1",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-7"
+  },
+  {
+    "id": "FND-50",
+    "cve": "CVE-2023-1234",
+    "package": "nginx",
+    "severity": "CRITICAL",
+    "cvss": "9.8",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-19"
+  },
+  {
+    "id": "FND-51",
+    "cve": "CVE-2023-1234",
+    "package": "log4j",
+    "severity": "CRITICAL",
+    "cvss": "9.0",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-52",
+    "cve": "CVE-2021-44228",
+    "package": "react",
+    "severity": "CRITICAL",
+    "cvss": "6.1",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-12"
+  },
+  {
+    "id": "FND-53",
+    "cve": "CVE-2021-44228",
+    "package": "react",
+    "severity": "CRITICAL",
+    "cvss": "6.1",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-12"
+  },
+  {
+    "id": "FND-54",
+    "cve": "CVE-2022-9999",
+    "package": "react",
+    "severity": "HIGH",
+    "cvss": "8.9",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-14"
+  },
+  {
+    "id": "FND-55",
+    "cve": "CVE-2021-44228",
+    "package": "openssl",
+    "severity": "HIGH",
+    "cvss": "8.5",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-6"
+  },
+  {
+    "id": "FND-56",
+    "cve": "CVE-2021-44228",
+    "package": "openssl",
+    "severity": "HIGH",
+    "cvss": "8.5",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-6"
+  },
+  {
+    "id": "FND-57",
+    "cve": "CVE-2023-1234",
+    "package": "django",
+    "severity": "HIGH",
+    "cvss": "6.1",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-3"
+  },
+  {
+    "id": "FND-58",
+    "cve": "CVE-2014-0160",
+    "package": "openssl",
+    "severity": "LOW",
+    "cvss": "5.8",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-12"
+  },
+  {
+    "id": "FND-59",
+    "cve": "CVE-2023-5678",
+    "package": "openssl",
+    "severity": "MEDIUM",
+    "cvss": "7.1",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-12"
+  },
+  {
+    "id": "FND-60",
+    "cve": "CVE-2023-1234",
+    "package": "express",
+    "severity": "HIGH",
+    "cvss": "8.5",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-11"
+  },
+  {
+    "id": "FND-61",
+    "cve": "CVE-2022-9999",
+    "package": "log4j",
+    "severity": "MEDIUM",
+    "cvss": "9.7",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-2"
+  },
+  {
+    "id": "FND-62",
+    "cve": "CVE-2022-9999",
+    "package": "nginx",
+    "severity": "CRITICAL",
+    "cvss": "7.0",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-19"
+  },
+  {
+    "id": "FND-63",
+    "cve": "CVE-2022-9999",
+    "package": "openssl",
+    "severity": "CRITICAL",
+    "cvss": "5.7",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-6"
+  },
+  {
+    "id": "FND-64",
+    "cve": "CVE-2022-9999",
+    "package": "flask",
+    "severity": "HIGH",
+    "cvss": "5.3",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-17"
+  },
+  {
+    "id": "FND-65",
+    "cve": "CVE-2023-1234",
+    "package": "flask",
+    "severity": "LOW",
+    "cvss": "9.9",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-66",
+    "cve": "CVE-2022-9999",
+    "package": "lodash",
+    "severity": "HIGH",
+    "cvss": "5.4",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-10"
+  },
+  {
+    "id": "FND-67",
+    "cve": "CVE-2021-44228",
+    "package": "express",
+    "severity": "LOW",
+    "cvss": "7.4",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-10"
+  },
+  {
+    "id": "FND-68",
+    "cve": "CVE-2023-1234",
+    "package": "django",
+    "severity": "HIGH",
+    "cvss": "7.7",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-10"
+  },
+  {
+    "id": "FND-69",
+    "cve": "CVE-2023-5678",
+    "package": "nginx",
+    "severity": "MEDIUM",
+    "cvss": "5.8",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-3"
+  },
+  {
+    "id": "FND-70",
+    "cve": "CVE-2023-5678",
+    "package": "nginx",
+    "severity": "MEDIUM",
+    "cvss": "5.8",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-3"
+  },
+  {
+    "id": "FND-71",
+    "cve": "CVE-2014-0160",
+    "package": "openssl",
+    "severity": "LOW",
+    "cvss": "8.4",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-17"
+  },
+  {
+    "id": "FND-72",
+    "cve": "CVE-2014-0160",
+    "package": "openssl",
+    "severity": "LOW",
+    "cvss": "8.4",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-17"
+  },
+  {
+    "id": "FND-73",
+    "cve": "CVE-2021-44228",
+    "package": "log4j",
+    "severity": "LOW",
+    "cvss": "7.3",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-74",
+    "cve": "CVE-2023-5678",
+    "package": "spring-boot",
+    "severity": "CRITICAL",
+    "cvss": "5.7",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-75",
+    "cve": "CVE-2023-5678",
+    "package": "spring-boot",
+    "severity": "CRITICAL",
+    "cvss": "5.7",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-76",
+    "cve": "CVE-2023-1234",
+    "package": "nginx",
+    "severity": "HIGH",
+    "cvss": "6.0",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-18"
+  },
+  {
+    "id": "FND-77",
+    "cve": "CVE-2022-9999",
+    "package": "express",
+    "severity": "LOW",
+    "cvss": "9.3",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-17"
+  },
+  {
+    "id": "FND-78",
+    "cve": "CVE-2021-44228",
+    "package": "apache",
+    "severity": "CRITICAL",
+    "cvss": "5.2",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-0"
+  },
+  {
+    "id": "FND-79",
+    "cve": "CVE-2021-44228",
+    "package": "apache",
+    "severity": "MEDIUM",
+    "cvss": "7.9",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-10"
+  },
+  {
+    "id": "FND-80",
+    "cve": "CVE-2021-44228",
+    "package": "apache",
+    "severity": "MEDIUM",
+    "cvss": "7.9",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-10"
+  },
+  {
+    "id": "FND-81",
+    "cve": "CVE-2023-5678",
+    "package": "flask",
+    "severity": "CRITICAL",
+    "cvss": "7.1",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-1"
+  },
+  {
+    "id": "FND-82",
+    "cve": "CVE-2014-0160",
+    "package": "spring-boot",
+    "severity": "MEDIUM",
+    "cvss": "5.3",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-11"
+  },
+  {
+    "id": "FND-83",
+    "cve": "CVE-2014-0160",
+    "package": "apache",
+    "severity": "MEDIUM",
+    "cvss": "5.6",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-12"
+  },
+  {
+    "id": "FND-84",
+    "cve": "CVE-2022-9999",
+    "package": "openssl",
+    "severity": "CRITICAL",
+    "cvss": "5.7",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-4"
+  },
+  {
+    "id": "FND-85",
+    "cve": "CVE-2021-44228",
+    "package": "apache",
+    "severity": "CRITICAL",
+    "cvss": "6.2",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-14"
+  },
+  {
+    "id": "FND-86",
+    "cve": "CVE-2021-44228",
+    "package": "apache",
+    "severity": "CRITICAL",
+    "cvss": "6.2",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-14"
+  },
+  {
+    "id": "FND-87",
+    "cve": "CVE-2023-1234",
+    "package": "openssl",
+    "severity": "CRITICAL",
+    "cvss": "9.0",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-9"
+  },
+  {
+    "id": "FND-88",
+    "cve": "CVE-2023-5678",
+    "package": "nginx",
+    "severity": "LOW",
+    "cvss": "7.7",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-17"
+  },
+  {
+    "id": "FND-89",
+    "cve": "CVE-2022-9999",
+    "package": "lodash",
+    "severity": "HIGH",
+    "cvss": "7.5",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-0"
+  },
+  {
+    "id": "FND-90",
+    "cve": "CVE-2023-5678",
+    "package": "log4j",
+    "severity": "CRITICAL",
+    "cvss": "8.3",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-91",
+    "cve": "CVE-2023-5678",
+    "package": "log4j",
+    "severity": "CRITICAL",
+    "cvss": "8.3",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-92",
+    "cve": "CVE-2021-44228",
+    "package": "apache",
+    "severity": "HIGH",
+    "cvss": "7.3",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-2"
+  },
+  {
+    "id": "FND-93",
+    "cve": "CVE-2021-44228",
+    "package": "express",
+    "severity": "HIGH",
+    "cvss": "9.2",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-94",
+    "cve": "CVE-2023-5678",
+    "package": "apache",
+    "severity": "LOW",
+    "cvss": "5.3",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-11"
+  },
+  {
+    "id": "FND-95",
+    "cve": "CVE-2023-5678",
+    "package": "apache",
+    "severity": "LOW",
+    "cvss": "5.3",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-11"
+  },
+  {
+    "id": "FND-96",
+    "cve": "CVE-2023-1234",
+    "package": "spring-boot",
+    "severity": "LOW",
+    "cvss": "8.0",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-3"
+  },
+  {
+    "id": "FND-97",
+    "cve": "CVE-2023-5678",
+    "package": "log4j",
+    "severity": "HIGH",
+    "cvss": "8.2",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-98",
+    "cve": "CVE-2023-5678",
+    "package": "react",
+    "severity": "HIGH",
+    "cvss": "6.2",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-9"
+  },
+  {
+    "id": "FND-99",
+    "cve": "CVE-2023-1234",
+    "package": "openssl",
+    "severity": "HIGH",
+    "cvss": "7.1",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-3"
+  },
+  {
+    "id": "FND-100",
+    "cve": "CVE-2023-1234",
+    "package": "spring-boot",
+    "severity": "MEDIUM",
+    "cvss": "9.9",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-101",
+    "cve": "CVE-2014-0160",
+    "package": "apache",
+    "severity": "CRITICAL",
+    "cvss": "7.1",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-11"
+  },
+  {
+    "id": "FND-102",
+    "cve": "CVE-2021-44228",
+    "package": "react",
+    "severity": "HIGH",
+    "cvss": "5.1",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-16"
+  },
+  {
+    "id": "FND-103",
+    "cve": "CVE-2014-0160",
+    "package": "react",
+    "severity": "CRITICAL",
+    "cvss": "8.4",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-1"
+  },
+  {
+    "id": "FND-104",
+    "cve": "CVE-2021-44228",
+    "package": "apache",
+    "severity": "HIGH",
+    "cvss": "6.4",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-3"
+  },
+  {
+    "id": "FND-105",
+    "cve": "CVE-2021-44228",
+    "package": "django",
+    "severity": "MEDIUM",
+    "cvss": "6.8",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-2"
+  },
+  {
+    "id": "FND-106",
+    "cve": "CVE-2021-44228",
+    "package": "django",
+    "severity": "MEDIUM",
+    "cvss": "6.8",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-2"
+  },
+  {
+    "id": "FND-107",
+    "cve": "CVE-2023-5678",
+    "package": "lodash",
+    "severity": "MEDIUM",
+    "cvss": "9.1",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-0"
+  },
+  {
+    "id": "FND-108",
+    "cve": "CVE-2023-5678",
+    "package": "lodash",
+    "severity": "MEDIUM",
+    "cvss": "9.1",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-0"
+  },
+  {
+    "id": "FND-109",
+    "cve": "CVE-2023-1234",
+    "package": "django",
+    "severity": "LOW",
+    "cvss": "9.3",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-110",
+    "cve": "CVE-2014-0160",
+    "package": "spring-boot",
+    "severity": "LOW",
+    "cvss": "5.9",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-18"
+  },
+  {
+    "id": "FND-111",
+    "cve": "CVE-2023-5678",
+    "package": "express",
+    "severity": "CRITICAL",
+    "cvss": "8.5",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-14"
+  },
+  {
+    "id": "FND-112",
+    "cve": "CVE-2014-0160",
+    "package": "django",
+    "severity": "CRITICAL",
+    "cvss": "9.1",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-113",
+    "cve": "CVE-2023-5678",
+    "package": "flask",
+    "severity": "CRITICAL",
+    "cvss": "7.7",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-19"
+  },
+  {
+    "id": "FND-114",
+    "cve": "CVE-2022-9999",
+    "package": "log4j",
+    "severity": "CRITICAL",
+    "cvss": "7.9",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-115",
+    "cve": "CVE-2023-1234",
+    "package": "express",
+    "severity": "MEDIUM",
+    "cvss": "5.7",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-6"
+  },
+  {
+    "id": "FND-116",
+    "cve": "CVE-2023-5678",
+    "package": "flask",
+    "severity": "HIGH",
+    "cvss": "5.4",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-8"
+  },
+  {
+    "id": "FND-117",
+    "cve": "CVE-2023-5678",
+    "package": "flask",
+    "severity": "HIGH",
+    "cvss": "5.4",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-8"
+  },
+  {
+    "id": "FND-118",
+    "cve": "CVE-2023-5678",
+    "package": "nginx",
+    "severity": "CRITICAL",
+    "cvss": "5.6",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-18"
+  },
+  {
+    "id": "FND-119",
+    "cve": "CVE-2023-5678",
+    "package": "django",
+    "severity": "LOW",
+    "cvss": "6.5",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-2"
+  },
+  {
+    "id": "FND-120",
+    "cve": "CVE-2022-9999",
+    "package": "express",
+    "severity": "MEDIUM",
+    "cvss": "8.4",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-6"
+  },
+  {
+    "id": "FND-121",
+    "cve": "CVE-2022-9999",
+    "package": "apache",
+    "severity": "MEDIUM",
+    "cvss": "7.0",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-15"
+  },
+  {
+    "id": "FND-122",
+    "cve": "CVE-2022-9999",
+    "package": "log4j",
+    "severity": "CRITICAL",
+    "cvss": "10.0",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-4"
+  },
+  {
+    "id": "FND-123",
+    "cve": "CVE-2022-9999",
+    "package": "react",
+    "severity": "CRITICAL",
+    "cvss": "9.2",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-0"
+  },
+  {
+    "id": "FND-124",
+    "cve": "CVE-2023-1234",
+    "package": "spring-boot",
+    "severity": "CRITICAL",
+    "cvss": "9.8",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-125",
+    "cve": "CVE-2021-44228",
+    "package": "spring-boot",
+    "severity": "LOW",
+    "cvss": "5.3",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-7"
+  },
+  {
+    "id": "FND-126",
+    "cve": "CVE-2021-44228",
+    "package": "spring-boot",
+    "severity": "LOW",
+    "cvss": "5.3",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-7"
+  },
+  {
+    "id": "FND-127",
+    "cve": "CVE-2021-44228",
+    "package": "spring-boot",
+    "severity": "HIGH",
+    "cvss": "6.2",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-17"
+  },
+  {
+    "id": "FND-128",
+    "cve": "CVE-2022-9999",
+    "package": "nginx",
+    "severity": "LOW",
+    "cvss": "7.5",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-19"
+  },
+  {
+    "id": "FND-129",
+    "cve": "CVE-2022-9999",
+    "package": "nginx",
+    "severity": "LOW",
+    "cvss": "7.5",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-19"
+  },
+  {
+    "id": "FND-130",
+    "cve": "CVE-2023-5678",
+    "package": "spring-boot",
+    "severity": "LOW",
+    "cvss": "9.2",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-19"
+  },
+  {
+    "id": "FND-131",
+    "cve": "CVE-2022-9999",
+    "package": "react",
+    "severity": "MEDIUM",
+    "cvss": "6.4",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-132",
+    "cve": "CVE-2022-9999",
+    "package": "react",
+    "severity": "MEDIUM",
+    "cvss": "6.4",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-133",
+    "cve": "CVE-2023-5678",
+    "package": "apache",
+    "severity": "LOW",
+    "cvss": "9.3",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-3"
+  },
+  {
+    "id": "FND-134",
+    "cve": "CVE-2023-5678",
+    "package": "express",
+    "severity": "HIGH",
+    "cvss": "7.2",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-135",
+    "cve": "CVE-2023-5678",
+    "package": "express",
+    "severity": "HIGH",
+    "cvss": "7.2",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-136",
+    "cve": "CVE-2023-1234",
+    "package": "apache",
+    "severity": "MEDIUM",
+    "cvss": "7.3",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-0"
+  },
+  {
+    "id": "FND-137",
+    "cve": "CVE-2022-9999",
+    "package": "django",
+    "severity": "CRITICAL",
+    "cvss": "6.1",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-4"
+  },
+  {
+    "id": "FND-138",
+    "cve": "CVE-2023-5678",
+    "package": "spring-boot",
+    "severity": "MEDIUM",
+    "cvss": "7.9",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-3"
+  },
+  {
+    "id": "FND-139",
+    "cve": "CVE-2021-44228",
+    "package": "express",
+    "severity": "LOW",
+    "cvss": "8.2",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-0"
+  },
+  {
+    "id": "FND-140",
+    "cve": "CVE-2021-44228",
+    "package": "express",
+    "severity": "LOW",
+    "cvss": "8.2",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-0"
+  },
+  {
+    "id": "FND-141",
+    "cve": "CVE-2023-5678",
+    "package": "openssl",
+    "severity": "CRITICAL",
+    "cvss": "6.9",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-142",
+    "cve": "CVE-2023-5678",
+    "package": "django",
+    "severity": "LOW",
+    "cvss": "9.7",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-2"
+  },
+  {
+    "id": "FND-143",
+    "cve": "CVE-2023-5678",
+    "package": "django",
+    "severity": "LOW",
+    "cvss": "9.7",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-2"
+  },
+  {
+    "id": "FND-144",
+    "cve": "CVE-2022-9999",
+    "package": "react",
+    "severity": "MEDIUM",
+    "cvss": "6.3",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-18"
+  },
+  {
+    "id": "FND-145",
+    "cve": "CVE-2022-9999",
+    "package": "react",
+    "severity": "MEDIUM",
+    "cvss": "6.3",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-18"
+  },
+  {
+    "id": "FND-146",
+    "cve": "CVE-2023-1234",
+    "package": "react",
+    "severity": "HIGH",
+    "cvss": "9.6",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-15"
+  },
+  {
+    "id": "FND-147",
+    "cve": "CVE-2023-1234",
+    "package": "react",
+    "severity": "HIGH",
+    "cvss": "9.6",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-15"
+  },
+  {
+    "id": "FND-148",
+    "cve": "CVE-2021-44228",
+    "package": "express",
+    "severity": "HIGH",
+    "cvss": "7.1",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-2"
+  },
+  {
+    "id": "FND-149",
+    "cve": "CVE-2023-5678",
+    "package": "django",
+    "severity": "LOW",
+    "cvss": "8.0",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-19"
+  },
+  {
+    "id": "FND-150",
+    "cve": "CVE-2023-5678",
+    "package": "django",
+    "severity": "LOW",
+    "cvss": "8.0",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-19"
+  },
+  {
+    "id": "FND-151",
+    "cve": "CVE-2022-9999",
+    "package": "openssl",
+    "severity": "MEDIUM",
+    "cvss": "7.5",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-0"
+  },
+  {
+    "id": "FND-152",
+    "cve": "CVE-2022-9999",
+    "package": "express",
+    "severity": "CRITICAL",
+    "cvss": "8.2",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-1"
+  },
+  {
+    "id": "FND-153",
+    "cve": "CVE-2022-9999",
+    "package": "lodash",
+    "severity": "LOW",
+    "cvss": "8.7",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-154",
+    "cve": "CVE-2023-5678",
+    "package": "express",
+    "severity": "HIGH",
+    "cvss": "6.1",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-11"
+  },
+  {
+    "id": "FND-155",
+    "cve": "CVE-2014-0160",
+    "package": "lodash",
+    "severity": "MEDIUM",
+    "cvss": "6.6",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-156",
+    "cve": "CVE-2022-9999",
+    "package": "spring-boot",
+    "severity": "LOW",
+    "cvss": "7.5",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-157",
+    "cve": "CVE-2022-9999",
+    "package": "spring-boot",
+    "severity": "LOW",
+    "cvss": "7.5",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-13"
+  },
+  {
+    "id": "FND-158",
+    "cve": "CVE-2023-5678",
+    "package": "openssl",
+    "severity": "LOW",
+    "cvss": "9.9",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-8"
+  },
+  {
+    "id": "FND-159",
+    "cve": "CVE-2023-5678",
+    "package": "lodash",
+    "severity": "MEDIUM",
+    "cvss": "9.7",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-10"
+  },
+  {
+    "id": "FND-160",
+    "cve": "CVE-2021-44228",
+    "package": "react",
+    "severity": "LOW",
+    "cvss": "9.8",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-9"
+  },
+  {
+    "id": "FND-161",
+    "cve": "CVE-2021-44228",
+    "package": "react",
+    "severity": "LOW",
+    "cvss": "9.8",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-9"
+  },
+  {
+    "id": "FND-162",
+    "cve": "CVE-2021-44228",
+    "package": "lodash",
+    "severity": "CRITICAL",
+    "cvss": "9.4",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-9"
+  },
+  {
+    "id": "FND-163",
+    "cve": "CVE-2023-5678",
+    "package": "spring-boot",
+    "severity": "CRITICAL",
+    "cvss": "9.5",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-15"
+  },
+  {
+    "id": "FND-164",
+    "cve": "CVE-2014-0160",
+    "package": "log4j",
+    "severity": "LOW",
+    "cvss": "7.9",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-11"
+  },
+  {
+    "id": "FND-165",
+    "cve": "CVE-2023-5678",
+    "package": "flask",
+    "severity": "HIGH",
+    "cvss": "8.6",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-6"
+  },
+  {
+    "id": "FND-166",
+    "cve": "CVE-2021-44228",
+    "package": "spring-boot",
+    "severity": "HIGH",
+    "cvss": "7.3",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-15"
+  },
+  {
+    "id": "FND-167",
+    "cve": "CVE-2014-0160",
+    "package": "flask",
+    "severity": "LOW",
+    "cvss": "8.7",
+    "environment": "prod",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-17"
+  },
+  {
+    "id": "FND-168",
+    "cve": "CVE-2014-0160",
+    "package": "spring-boot",
+    "severity": "MEDIUM",
+    "cvss": "6.8",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-14"
+  },
+  {
+    "id": "FND-169",
+    "cve": "CVE-2014-0160",
+    "package": "spring-boot",
+    "severity": "MEDIUM",
+    "cvss": "6.8",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-14"
+  },
+  {
+    "id": "FND-170",
+    "cve": "CVE-2021-44228",
+    "package": "apache",
+    "severity": "LOW",
+    "cvss": "9.7",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-5"
+  },
+  {
+    "id": "FND-171",
+    "cve": "CVE-2021-44228",
+    "package": "lodash",
+    "severity": "LOW",
+    "cvss": "8.9",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-11"
+  },
+  {
+    "id": "FND-172",
+    "cve": "CVE-2021-44228",
+    "package": "lodash",
+    "severity": "LOW",
+    "cvss": "8.9",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-11"
+  },
+  {
+    "id": "FND-173",
+    "cve": "CVE-2014-0160",
+    "package": "apache",
+    "severity": "HIGH",
+    "cvss": "7.3",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-8"
+  },
+  {
+    "id": "FND-174",
+    "cve": "CVE-2014-0160",
+    "package": "lodash",
+    "severity": "MEDIUM",
+    "cvss": "6.6",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-7"
+  },
+  {
+    "id": "FND-175",
+    "cve": "CVE-2014-0160",
+    "package": "nginx",
+    "severity": "HIGH",
+    "cvss": "6.2",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": false
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-15"
+  },
+  {
+    "id": "FND-176",
+    "cve": "CVE-2023-1234",
+    "package": "spring-boot",
+    "severity": "LOW",
+    "cvss": "8.9",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-11"
+  },
+  {
+    "id": "FND-177",
+    "cve": "CVE-2014-0160",
+    "package": "lodash",
+    "severity": "LOW",
+    "cvss": "9.8",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-7"
+  },
+  {
+    "id": "FND-178",
+    "cve": "CVE-2014-0160",
+    "package": "nginx",
+    "severity": "CRITICAL",
+    "cvss": "8.4",
+    "environment": "staging",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-3"
+  },
+  {
+    "id": "FND-179",
+    "cve": "CVE-2021-44228",
+    "package": "spring-boot",
+    "severity": "MEDIUM",
+    "cvss": "5.1",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-10"
+  },
+  {
+    "id": "FND-180",
+    "cve": "CVE-2021-44228",
+    "package": "spring-boot",
+    "severity": "MEDIUM",
+    "cvss": "5.1",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-10"
+  },
+  {
+    "id": "FND-181",
+    "cve": "CVE-2023-5678",
+    "package": "express",
+    "severity": "MEDIUM",
+    "cvss": "8.0",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-7"
+  },
+  {
+    "id": "FND-182",
+    "cve": "CVE-2023-5678",
+    "package": "express",
+    "severity": "MEDIUM",
+    "cvss": "8.0",
+    "environment": "dev",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-7"
+  },
+  {
+    "id": "FND-183",
+    "cve": "CVE-2022-9999",
+    "package": "openssl",
+    "severity": "CRITICAL",
+    "cvss": "8.5",
+    "environment": "dev",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-18"
+  },
+  {
+    "id": "FND-184",
+    "cve": "CVE-2023-5678",
+    "package": "apache",
+    "severity": "LOW",
+    "cvss": "9.9",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-7"
+  },
+  {
+    "id": "FND-185",
+    "cve": "CVE-2023-5678",
+    "package": "apache",
+    "severity": "LOW",
+    "cvss": "9.9",
+    "environment": "staging",
+    "context": {
+      "internetFacing": false,
+      "publicExploitAvailable": true,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-7"
+  },
+  {
+    "id": "FND-186",
+    "cve": "CVE-2014-0160",
+    "package": "flask",
+    "severity": "LOW",
+    "cvss": "5.9",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Trivy",
+    "resource": "deployment/app-15"
+  },
+  {
+    "id": "FND-187",
+    "cve": "CVE-2014-0160",
+    "package": "django",
+    "severity": "MEDIUM",
+    "cvss": "9.7",
+    "environment": "prod",
+    "context": {
+      "internetFacing": true,
+      "publicExploitAvailable": false,
+      "loadedAtRuntime": true
+    },
+    "scanner": "Wiz",
+    "resource": "deployment/app-6"
+  }
+]
