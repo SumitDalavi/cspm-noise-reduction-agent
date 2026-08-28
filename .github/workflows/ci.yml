@@ -10,15 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-node@v4
         with:
-          python-version: '3.11'
-      - name: Install Dependencies
+          node-version: '20'
+      - name: Build and Test Backend
         run: |
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Run Tests
+          cd backend
+          npm install
+          npm run build
+          npm test
+      - name: Build Dashboard
         run: |
-          if [ -f requirements.txt ] && pip show pytest &>/dev/null; then
-            pytest tests/ -v --tb=short || true
-          fi
-          echo "CI completed successfully"
+          cd dashboard
+          npm install
+          npm run build

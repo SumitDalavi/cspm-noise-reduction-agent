@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { ShieldAlert, CheckCircle, Activity, Server, FileText } from 'lucide-react';
 
 interface Metrics {
-  raw: number;
-  deduped: number;
-  tickets: number;
+  raw_findings_count: number;
+  deduplicated_count: number;
+  actionable_tickets_count: number;
+  noise_reduction_percentage: string;
 }
 
 interface Ticket {
@@ -13,6 +14,7 @@ interface Ticket {
   cve: string;
   package: string;
   severity: string;
+  cvss: number;
   exploitabilityScore: number;
   priority: string;
   duplicateCount: number;
@@ -59,20 +61,20 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
           <div className="bg-slate-800 rounded-xl p-6 border border-slate-700 shadow-lg">
             <h3 className="text-slate-400 text-sm font-semibold uppercase tracking-wider mb-2">Raw Findings</h3>
-            <p className="text-4xl font-bold text-slate-100">{metrics.raw}</p>
+            <p className="text-4xl font-bold text-slate-100">{metrics.raw_findings_count}</p>
           </div>
           <div className="bg-slate-800 rounded-xl p-6 border border-slate-700 shadow-lg">
             <h3 className="text-slate-400 text-sm font-semibold uppercase tracking-wider mb-2">After Dedup</h3>
-            <p className="text-4xl font-bold text-slate-100">{metrics.deduped}</p>
+            <p className="text-4xl font-bold text-slate-100">{metrics.deduplicated_count}</p>
           </div>
           <div className="bg-blue-900/30 rounded-xl p-6 border border-blue-500/30 shadow-lg">
             <h3 className="text-blue-300 text-sm font-semibold uppercase tracking-wider mb-2">Actionable Tickets</h3>
-            <p className="text-4xl font-bold text-blue-400">{metrics.tickets}</p>
+            <p className="text-4xl font-bold text-blue-400">{metrics.actionable_tickets_count}</p>
           </div>
           <div className="bg-emerald-900/30 rounded-xl p-6 border border-emerald-500/30 shadow-lg">
             <h3 className="text-emerald-300 text-sm font-semibold uppercase tracking-wider mb-2">Noise Reduction</h3>
             <p className="text-4xl font-bold text-emerald-400">
-              {((1 - metrics.tickets / metrics.raw) * 100).toFixed(1)}%
+              {metrics.noise_reduction_percentage}
             </p>
           </div>
         </div>
