@@ -1,0 +1,50 @@
+[
+  {
+    "SchemaVersion": "2018-10-08",
+    "Id": "arn:aws:securityhub:us-east-1:123456789012:subscription/aws-foundational-security-best-practices/v/1.0.0/EC2.1/finding/a1b2c3d4-5678-90ab-cdef-EXAMPLE11111",
+    "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
+    "GeneratorId": "aws-foundational-security-best-practices/v/1.0.0/EC2.1",
+    "AwsAccountId": "123456789012",
+    "Types": [
+      "Software and Configuration Checks/Industry and Regulatory Standards/AWS-Foundational-Security-Best-Practices"
+    ],
+    "FirstObservedAt": "2026-08-29T00:00:00Z",
+    "UpdatedAt": "2026-08-29T00:00:00Z",
+    "Severity": {
+      "Label": "CRITICAL",
+      "Normalized": 90
+    },
+    "Title": "CVE-2026-9999 found in openssl",
+    "Description": "A vulnerability in OpenSSL could allow remote code execution.",
+    "Resources": [
+      {
+        "Type": "AwsEc2Instance",
+        "Id": "arn:aws:ec2:us-east-1:123456789012:instance/i-0abcd1234efgh5678"
+      }
+    ]
+  },
+  {
+    "SchemaVersion": "2018-10-08",
+    "Id": "arn:aws:securityhub:us-east-1:123456789012:subscription/inspector/v/1.0.0/EC2.1/finding/b2c3d4e5-6789-01bc-defg-EXAMPLE22222",
+    "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/inspector",
+    "GeneratorId": "inspector-cve",
+    "AwsAccountId": "123456789012",
+    "Types": [
+      "Software and Configuration Checks/Vulnerabilities/CVE"
+    ],
+    "FirstObservedAt": "2026-08-29T00:00:00Z",
+    "UpdatedAt": "2026-08-29T00:00:00Z",
+    "Severity": {
+      "Label": "HIGH",
+      "Normalized": 70
+    },
+    "Title": "CVE-2026-9999 found in openssl",
+    "Description": "A vulnerability in OpenSSL could allow remote code execution.",
+    "Resources": [
+      {
+        "Type": "AwsEc2Instance",
+        "Id": "arn:aws:ec2:us-east-1:123456789012:instance/i-0abcd1234efgh5678"
+      }
+    ]
+  }
+]

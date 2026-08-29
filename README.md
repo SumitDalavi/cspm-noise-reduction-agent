@@ -1,5 +1,8 @@
 # AI-Driven CSPM Noise Reduction Agent
 
+> **Maturity:** Functional Prototype
+> _150+ mock findings → ~12 prioritized tickets via real deduplication + contextual scoring. MCP subprocess bypassed in tests (no live MCP integration test yet). No real scanner input or Jira output in CI._
+
 A portfolio project demonstrating an intelligent triage layer for Cloud Security Posture Management (CSPM). It ingests raw vulnerability and misconfiguration findings from tools like Trivy or Wiz, deduplicates overlapping issues, and uses a rules-based scoring engine (with an optional LLM integration) to output a prioritized, highly actionable ticket list.
 
 ## The Problem
@@ -90,11 +93,23 @@ npm run dev
 
 ## Verification
 
+### Backend test suite
+```bash
+cd backend
+npm test
+```
+Expected:
+```
+PASS tests/api.test.ts
+  ✓ should return the deduped and scored report
+Tests: 1 passed, 1 total
+```
+
 | Check | Expected Result |
 | :--- | :--- |
-| API Response | `curl http://localhost:3000/api/report` returns a JSON object with `metrics` and `tickets`. |
-| Dashboard UI | The UI successfully loads, showing a ~90% noise reduction (e.g., 187 raw findings reduced to 12 tickets). |
-| MCP Tool | The backend can be run with `npx ts-node src/index.ts mcp` to start the standard input/output MCP server. |
+| API Response | `curl http://localhost:3000/api/report` returns `{ "metrics": { "raw_findings_count": N, "deduplicated_count": M, "actionable_tickets_count": K }, "tickets": [...] }` |
+| Dashboard UI | Loads at `http://localhost:5173`, shows ~90% noise reduction |
+| MCP Tool | `npx ts-node src/index.ts mcp` starts stdio MCP server; Claude can call `get_prioritized_findings` |
 
 
 ---
@@ -130,12 +145,29 @@ npm run test
 
 ---
 
-## 5. Mock Boundaries (Audit Compliance)
+## 5. Mock Boundaries (Honest Scope)
 
-To comply with strict portfolio audit requirements, we explicitly define the boundaries of what is real vs. simulated:
+| What | Status | Details |
+|---|---|---|
+| Deduplication engine | **Real** | Fully functional — collapses by CVE+package+resource |
+| Contextual scorer | **Real** | Rules-based CVSS adjustment — deterministic, reproducible |
+| MCP server (production) | **Real** | Stdio MCP server works with Claude Desktop |
+| Scanner input (AWS Security Hub) | **Real Fixture** | `backend/data/aws_security_hub_fixture.json` — actual ASFF format used in E2E tests. |
+| Jira/ServiceNow output | **Stubbed** | Adapter interfaces exist; no real ticket creation |
+| LLM summaries | **Simulated** | Deterministic text when no `OPENAI_API_KEY`; mock delay when key present |
 
-- **Fully Implemented:** The core state machine, API routes, database schemas, and integration tests are real and fully functional.
-- **Mocked / Demo Mode:** External Jira/ServiceNow integration APIs are wrapped in adapter interfaces for local testing.
+## 📚 Documentation
+
+- [Architecture](docs/ARCHITECTURE.md) — Mermaid flowchart, component table, scoring logic
+- [Runbook](docs/runbook.md) — Setup, test commands, MCP mode, failure modes
+- [Decisions](docs/decisions.md) — ADRs for scoring strategy, dedup key, MCP, test guard
+- [Changelog](docs/changelog.md) — Change history
+
+## 🔗 Related Projects
+
+- [`secret-sprawl-remediation-bot`](../secret-sprawl-remediation-bot/) — Shares the "closed-loop automated remediation" pattern
+- [`nhi-agent-access-governance`](../nhi-agent-access-governance/) — CSPM findings often relate to NHI/service account misconfigurations
+- [`ai-control-plane-demo`](../ai-control-plane-demo/) — This agent's MCP tool feeds into the composite AI control plane
 
 ## Author
 
