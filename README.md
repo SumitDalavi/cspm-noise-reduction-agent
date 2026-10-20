@@ -163,6 +163,30 @@ npm run test
 | Jira/ServiceNow output | **Stubbed** | Adapter interfaces exist; no real ticket creation |
 | LLM summaries | **Simulated** | Deterministic text when no `OPENAI_API_KEY`; mock delay when key present |
 
+## 🚀 Progressive Credential Loading & Execution Tiers
+
+This project implements **Progressive Credential Loading (PCL)**, allowing it to run immediately out-of-the-box without external dependencies while seamlessly upgrading as credentials are provided.
+
+### Tier 1: Zero-Config Mock Mode (Default)
+Ideal for CI, testing, and rapid local evaluation.
+- **Execution:** Run with default configuration (`cp .env.example .env`). Zero API keys, databases, or cloud credentials required.
+- **Fallback Behavior:** In-memory caches, deterministic offline heuristics, mock vector embeddings, and local mock storage are automatically used.
+- **Health Verification:** Endpoints report `{"mode": "mock"}` for unconfigured dependencies.
+
+### Tier 2: Local Development with Live Services
+Connect specific external services while keeping others mocked.
+- **Execution:** Provide credentials in `.env` for the services you want active (e.g., `OPENAI_API_KEY, DATABASE_URL`).
+- **Progressive Upgrade:** The runtime inspects environment variables on boot and dynamically promotes only configured modules to live mode.
+- **Safe Fallback:** Any missing credentials automatically remain on mock fallbacks with no crashes or missing service errors.
+
+### Tier 3: Production Hardened
+Enterprise deployment with production-grade backends, security scans, and container distributions.
+- **Release Distribution:** Download standalone release bundle and verified checksums:
+  ```bash
+  gh release download v0.2.0 --repo SumitDalavi/cspm-noise-reduction-agent
+  ```
+- **Integrity & Security:** Checksums and SPDX SBOM (`sbom.spdx.json`) available on [GitHub Releases](https://github.com/SumitDalavi/cspm-noise-reduction-agent/releases).
+
 ## 📚 Documentation
 
 - [Architecture](docs/ARCHITECTURE.md) — Mermaid flowchart, component table, scoring logic
