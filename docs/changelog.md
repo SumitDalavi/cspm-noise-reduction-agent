@@ -21,3 +21,12 @@
 - Mock data generator (`scripts/generate_mock_data.js`) — 150+ realistic findings
 - Jest test suite (1 test)
 - GitHub Actions CI pipeline
+
+
+---
+
+## [v0.1.0] — 2026-10-20
+### Added
+- **Release Automation:** Added `.github/workflows/release.yml` with automated catalog validation, tarball packaging, and SPDX SBOM generation.
+- **Supply Chain Security:** Generated Anchore Syft SPDX JSON SBOM and cryptographic SHA-256 checksums.
+- **Release Verification:** Added release verification documentation, badges, and operational runbook.
