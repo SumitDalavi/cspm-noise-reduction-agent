@@ -99,3 +99,24 @@ Priority thresholds: CRITICAL ≥ 9.0 | HIGH ≥ 7.0 | MEDIUM ≥ 4.0 | LOW < 4.
 | Dedup key = CVE + Package + Resource | Same CVE in same package on same resource from different scanners = same underlying issue |
 | MCP Server integration | Exposes findings to AI coding assistants (Claude) for automated remediation suggestions |
 | `isTest` guard in Express handler | Avoids spawning `npx ts-node` subprocess in Jest; keeps tests self-contained and CI-friendly |
+
+## Progressive Credential Loading & Production Architecture (v0.2.0)
+
+This service implements the **Progressive Credential Loading (PCL)** pattern, decoupling development speed from external infrastructure provisioning:
+
+```mermaid
+graph LR
+    Env[Environment Credentials] -->|Detect Keys & URLs| Detector[Credential Detector]
+    Detector -->|No Credentials / Missing| Mock[Mock Mode Factory]
+    Detector -->|Valid Credentials Present| Live[Live Provider Factory]
+    Mock --> Runtime[Application Core & /health]
+    Live --> Runtime
+```
+
+### Core Architecture Components
+1. **Mode Detection Singleton:** Inspects environment configuration at boot time without hard crashes on missing secrets.
+2. **Dual-Mode Factory Wrappers:**
+   - **Storage / Cache:** In-process maps or SQLite `:memory:` transparently promote to managed Redis or PostgreSQL when connection strings are supplied.
+   - **AI Providers:** Deterministic heuristic generators and local embeddings transparently promote to live OpenAI, Anthropic, or Gemini API clients.
+3. **Hot-Reload & Dynamic TLS:** File watchers monitor mounted volume paths (Kubernetes ConfigMaps and Secrets) to update certificates and limit configs atomically without process restarts.
+4. **Health & Observability:** The `/health` endpoint exposes real-time runtime mode metadata (`mock` vs `live`) across all backing adapters.

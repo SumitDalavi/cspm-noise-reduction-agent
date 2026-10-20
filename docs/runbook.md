@@ -119,3 +119,35 @@ gh release download v0.1.0 --repo SumitDalavi/cspm-noise-reduction-agent --patte
 ### Failure Modes & Remediation
 - **Linter / Test Failure:** Inspect policy syntax, configurations, or module arguments locally before tagging.
 - **Checksum Mismatch:** Ensure file was completely downloaded without network truncation.
+
+## Operations & Diagnostics Guide (v0.2.0)
+
+### Mode Verification & Diagnostics
+Inspect the active execution mode and backing provider status via the health endpoint:
+```bash
+# Check runtime mode and adapter status
+curl -s http://localhost:8080/health | jq .
+# Expected output when running without keys:
+# {"status": "ok", "mode": {"database": "mock", "ai": "mock", "cache": "mock"}}
+```
+
+### Running in Mock Mode (Tier 1)
+Start the service with zero external dependencies:
+```bash
+cp .env.example .env
+# Start service without modifying .env
+npm start || python main.py || go run .
+```
+
+### Running with Live Credentials (Tier 2 / 3)
+Populate target credentials in `.env` and restart:
+```bash
+# Verify live upgrade via health check
+curl -s http://localhost:8080/health | jq .mode
+```
+
+### Pulling Pre-Built OCI Image
+```bash
+docker pull ghcr.io/sumitdalavi/cspm-noise-reduction-agent:v0.2.0
+docker run -d -p 8080:8080 --env-file .env ghcr.io/sumitdalavi/cspm-noise-reduction-agent:v0.2.0
+```
