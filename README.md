@@ -1,11 +1,12 @@
 > **NOTE:** This repository is an archival lab or partial prototype. It is not actively maintained and should not be used as a reference for production-grade deployments or performance benchmarks.
 
-
 # AI-Driven CSPM Noise Reduction Agent
 
-[![Release](https://img.shields.io/github/v/release/SumitDalavi/cspm-noise-reduction-agent)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/releases)
+[![CI Pipeline](https://github.com/SumitDalavi/cspm-noise-reduction-agent/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/SumitDalavi/cspm-noise-reduction-agent?color=0969da&label=release&logo=github)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/releases)
 [![Release Workflow](https://github.com/SumitDalavi/cspm-noise-reduction-agent/actions/workflows/release.yml/badge.svg)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/actions/workflows/release.yml)
-
+[![SBOM](https://img.shields.io/badge/SBOM-SPDX%202.3-blueviolet?logo=spdx)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/releases/tag/v0.2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 > **Maturity:** Functional Prototype
 > _150+ mock findings → ~12 prioritized tickets via real deduplication + contextual scoring. MCP subprocess bypassed in tests (no live MCP integration test yet). No real scanner input or Jira output in CI._
@@ -118,7 +119,6 @@ Tests: 1 passed, 1 total
 | Dashboard UI | Loads at `http://localhost:5173`, shows ~90% noise reduction |
 | MCP Tool | `npx ts-node src/index.ts mcp` starts stdio MCP server; Claude can call `get_prioritized_findings` |
 
-
 ---
 
 ## 3. 🔬 Evidence & Benchmarks (Audit Added)
@@ -205,7 +205,6 @@ Enterprise deployment with production-grade backends, security scans, and contai
 **Sumit Dalavi — Senior DevSecOps / Platform Engineer**
 - [GitHub](https://github.com/your-username)
 - [LinkedIn](https://linkedin.com/in/your-profile)
-
 
 ## CI & Reliability Updates (August 2026)
 
