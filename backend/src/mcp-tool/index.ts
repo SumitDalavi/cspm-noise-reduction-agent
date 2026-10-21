@@ -8,7 +8,7 @@ import { scoreFindings, summarizeWithLLM } from "../scoring/scorer";
 export function createMcpServer() {
   const server = new McpServer({
     name: "cspm-noise-reduction-agent",
-    version: "1.0.0",
+    version: "0.2.0",
   });
 
   server.tool(
