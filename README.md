@@ -3,7 +3,7 @@
 [![CI Pipeline](https://github.com/SumitDalavi/cspm-noise-reduction-agent/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/SumitDalavi/cspm-noise-reduction-agent?color=0969da&label=release&logo=github)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/releases)
 [![Release Workflow](https://github.com/SumitDalavi/cspm-noise-reduction-agent/actions/workflows/release.yml/badge.svg)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/actions/workflows/release.yml)
-[![Glama](https://img.shields.io/badge/Glama-MCP%20Server-0052FF?logo=anthropic&logoColor=white)](https://glama.ai/mcp/servers)
+[![cspm-noise-reduction-agent MCP server – quality and maintenance score on Glama](https://glama.ai/mcp/servers/SumitDalavi/cspm-noise-reduction-agent/badges/score.svg)](https://glama.ai/mcp/servers/SumitDalavi/cspm-noise-reduction-agent)
 [![Smithery](https://img.shields.io/badge/Smithery-verified-orange)](https://smithery.ai)
 [![SBOM](https://img.shields.io/badge/SBOM-SPDX%202.3-blueviolet?logo=spdx)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/releases/tag/v0.2.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -99,6 +99,8 @@ npm run dev
 *Navigate to `http://localhost:5173` to see the dashboard.*
 
 ### 3. Connect via Model Context Protocol (MCP)
+
+[![cspm-noise-reduction-agent MCP server – quality and maintenance score on Glama](https://glama.ai/mcp/servers/SumitDalavi/cspm-noise-reduction-agent/badges/card.svg)](https://glama.ai/mcp/servers/SumitDalavi/cspm-noise-reduction-agent)
 
 This project includes an embedded MCP server (`backend/src/mcp-tool`) conforming to the Model Context Protocol standard, registered with Glama (`glama.json`).
 
