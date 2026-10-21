@@ -6,8 +6,7 @@
 [![SBOM](https://img.shields.io/badge/SBOM-SPDX%202.3-blueviolet?logo=spdx)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/releases/tag/v0.2.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-> **Maturity:** Functional Prototype
-> _150+ mock findings → ~12 prioritized tickets via real deduplication + contextual scoring. MCP subprocess bypassed in tests (no live MCP integration test yet). No real scanner input or Jira output in CI._
+> An intelligent triage layer for Cloud Security Posture Management (CSPM) that ingests raw vulnerability findings, deduplicates overlapping alerts, and contextually scores remediation priority.
 
 A portfolio project demonstrating an intelligent triage layer for Cloud Security Posture Management (CSPM). It ingests raw vulnerability and misconfiguration findings from tools like Trivy or Wiz, deduplicates overlapping issues, and uses a rules-based scoring engine (with an optional LLM integration) to output a prioritized, highly actionable ticket list.
 
