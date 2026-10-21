@@ -1,0 +1,18 @@
+{
+  "name": "cspm-noise-reduction-agent",
+  "version": "0.2.0",
+  "description": "AI-driven Cloud Security Posture Management triage agent and MCP server",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix backend install && npm --prefix backend run build",
+    "start": "node backend/dist/mcp-tool/index.js",
+    "test": "npm --prefix backend test"
+  },
+  "keywords": [
+    "cspm",
+    "mcp",
+    "security"
+  ],
+  "author": "Sumit Dalavi",
+  "license": "MIT"
+}

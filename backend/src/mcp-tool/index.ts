@@ -58,3 +58,7 @@ export async function runMcpServer() {
   await server.connect(transport);
   console.error("MCP Server running on stdio");
 }
+
+if (require.main === module) {
+  runMcpServer().catch(console.error);
+}

@@ -1,0 +1,11 @@
+startCommand:
+  type: stdio
+  configFunction:
+    node:
+      command: node
+      args:
+        - backend/dist/mcp-tool/index.js
+  env:
+    OPENAI_API_KEY:
+      type: string
+      description: Optional OpenAI API key for LLM triage summaries (mock fallback if omitted)

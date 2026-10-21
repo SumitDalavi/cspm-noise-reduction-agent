@@ -4,6 +4,7 @@
 [![Release](https://img.shields.io/github/v/release/SumitDalavi/cspm-noise-reduction-agent?color=0969da&label=release&logo=github)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/releases)
 [![Release Workflow](https://github.com/SumitDalavi/cspm-noise-reduction-agent/actions/workflows/release.yml/badge.svg)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/actions/workflows/release.yml)
 [![Glama](https://img.shields.io/badge/Glama-MCP%20Server-0052FF?logo=anthropic&logoColor=white)](https://glama.ai/mcp/servers)
+[![Smithery](https://img.shields.io/badge/Smithery-verified-orange)](https://smithery.ai)
 [![SBOM](https://img.shields.io/badge/SBOM-SPDX%202.3-blueviolet?logo=spdx)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/releases/tag/v0.2.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
