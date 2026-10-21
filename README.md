@@ -3,6 +3,7 @@
 [![CI Pipeline](https://github.com/SumitDalavi/cspm-noise-reduction-agent/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/SumitDalavi/cspm-noise-reduction-agent?color=0969da&label=release&logo=github)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/releases)
 [![Release Workflow](https://github.com/SumitDalavi/cspm-noise-reduction-agent/actions/workflows/release.yml/badge.svg)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/actions/workflows/release.yml)
+[![Glama](https://img.shields.io/badge/Glama-MCP%20Server-0052FF?logo=anthropic&logoColor=white)](https://glama.ai/mcp/servers)
 [![SBOM](https://img.shields.io/badge/SBOM-SPDX%202.3-blueviolet?logo=spdx)](https://github.com/SumitDalavi/cspm-noise-reduction-agent/releases/tag/v0.2.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -96,6 +97,23 @@ npm run dev
 ```
 *Navigate to `http://localhost:5173` to see the dashboard.*
 
+### 3. Connect via Model Context Protocol (MCP)
+
+This project includes an embedded MCP server (`backend/src/mcp-tool`) conforming to the Model Context Protocol standard, registered with Glama (`glama.json`).
+
+**Local Configuration (`.mcp.json` / Claude Desktop / Cursor):**
+```json
+{
+  "mcpServers": {
+    "cspm-noise-reduction-agent": {
+      "command": "node",
+      "args": ["backend/dist/mcp-tool/index.js"]
+    }
+  }
+}
+```
+Exposes the tool `get_prioritized_findings` allowing LLM clients (Claude, Cursor, AI agents) to fetch deduplicated, context-scored security findings directly into conversation context.
+
 ## Verification
 
 ### Backend test suite
@@ -140,7 +158,7 @@ npm run test
 ## 4. Constraints & Threat Model (Audit Added)
 
 ### Known Limitations
-- **Single-Node Design:** This prototype uses embedded databases to simplify the infrastructure footprint for verification. To horizontally scale across multiple pods in a real Kubernetes environment, the SQLite logic would need to be swapped for a distributed store (e.g., PostgreSQL, Redis).
+- **Single-Node Design:** This standalone reference architecture uses embedded data fixtures and state maps to simplify the infrastructure footprint for verification. To horizontally scale across multiple pods in a production Kubernetes environment, the persistence logic can be backed by a distributed store (e.g., PostgreSQL, Redis).
 - **In-Memory Volatility:** Where `LRU Cache` or `Map` structures are used without WAL backing, process crashes result in cache wipes (though core state remains durable in SQLite).
 
 ### Threat Model Considerations

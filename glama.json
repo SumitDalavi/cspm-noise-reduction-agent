@@ -1,0 +1,22 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "name": "cspm-noise-reduction-agent",
+  "description": "AI-driven Cloud Security Posture Management triage agent and MCP server that deduplicates scanner findings and calculates contextual risk scores.",
+  "maintainers": [
+    "SumitDalavi"
+  ],
+  "type": "mcp_server",
+  "status": "active",
+  "transport": [
+    "stdio"
+  ],
+  "keywords": [
+    "cspm",
+    "mcp",
+    "security",
+    "vulnerability-deduplication",
+    "risk-scoring",
+    "trivy",
+    "wiz"
+  ]
+}
